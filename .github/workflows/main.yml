@@ -18,7 +18,8 @@ jobs:
       # Запуск actions setup-python — готового скрипта 
       # для развёртывания окружения Python
         uses: actions/setup-python@v2
-        with python-version: 3.7
+        with:
+          python-version: 3.7
 
       - name: Install dependencies
         run: |
